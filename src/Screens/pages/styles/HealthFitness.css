@@ -1,0 +1,66 @@
+.health-fitness-chat {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f1f8e9;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.chat-window {
+  height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 12px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.bot-msg {
+  background: #e0f7fa;
+  align-self: flex-start;
+}
+
+.user-msg {
+  background: #c8e6c9;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-area button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background: #43a047;
+}
